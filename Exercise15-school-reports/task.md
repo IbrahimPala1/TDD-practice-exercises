@@ -8,6 +8,22 @@ build a simple report
 
 no empty string return no results given
 
-As a school
-so that i can see the results of the students in an report 
-i would like to see a list of the grades
+input  --- output 
+Green => Green: 1
+Green, Green => Green: 2
+Green, Green, Green => Green: 3
+Green, Amber, => Green: 1
+                 Amber: 1
+Green, Green, Amber, Amber => Green: 2
+                              Amber: 2
+Green, Amber, Red => Green: 1
+                     Amber: 1
+                     Red: 1
+Green, Green, Red, Red, Amber, Amber= > Green: 2
+                                        Amber: 2
+                                        Red: 2
+Throw error
+lowercase 
+
+
+
