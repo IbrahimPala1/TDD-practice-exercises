@@ -3,6 +3,8 @@ const fizzbuzz = (number) => {
         return "1"
     } else if(number == 3) {
         return "fizz"
+    } else if(number == 5) {
+        return "buzz"
     }
 }
 
