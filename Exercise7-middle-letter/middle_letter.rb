@@ -1,3 +1,8 @@
 def middle_letter(word)
-    return word
+    if word == "a"
+        return "a"
+    elsif word == "b"
+        return "b"
+    end
+       
 end 

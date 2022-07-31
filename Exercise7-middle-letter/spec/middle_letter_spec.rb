@@ -4,4 +4,7 @@ RSpec.describe 'middle_letter' do
     it 'checks one letter returns letter' do
         expect(middle_letter('a')).to eq "a"
     end 
+    it 'checks secojd letter returns letter' do
+        expect(middle_letter('b')).to eq "b"
+    end 
 end
