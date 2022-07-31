@@ -28,4 +28,7 @@ RSpec.describe 'spell_checker' do
     it "checks that correct word returns correct word" do
         expect(checking_words("There was a sequence")).to eq "There was a sequence"
     end 
+    it "checks that correct word returns correct word" do
+        expect(checking_words("This is a interesting world")).to eq "This is a interesting world"
+    end 
 end 
