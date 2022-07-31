@@ -7,5 +7,7 @@ def checking_words(words)
         return "~smnelt~"
     elsif words == 'blet'
         return "~blet~"
+    elsif words == 'yse'
+        return "~yse~"
     end 
 end 
