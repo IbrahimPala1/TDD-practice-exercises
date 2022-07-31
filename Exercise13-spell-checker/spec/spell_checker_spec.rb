@@ -10,4 +10,10 @@ RSpec.describe 'spell_checker' do
     it "checks that correct word returns correct word" do
         expect(checking_words("was")).to eq "was"
     end 
+    it "checks that correct word returns correct word" do
+        expect(checking_words("smenlt")).to eq "~smnelt~"
+    end 
+    it "checks that correct word returns correct word" do
+        expect(checking_words("blet")).to eq "~blet~"
+    end 
 end 

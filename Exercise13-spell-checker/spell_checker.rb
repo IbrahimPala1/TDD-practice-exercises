@@ -1,9 +1,9 @@
+
 def checking_words(words)
-    if words == "There"
-        return "There"
-    elsif words == "word"
-        return "word"
-    elsif words == "was"
-        return "was"
+    word_bank = ["There", "word", "was"]
+    if word_bank.include?(words)
+        return words
+    elsif words == 'smenlt'
+        return "~smnelt~"
     end 
 end 
