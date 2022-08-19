@@ -1,3 +1,8 @@
 def add_scores(grade)
-    return grade + "1"
+  if grade == "Amber"
+    return "Amber: 1"
+  elsif grade == "Red" 
+    return "Red: 1"
+  end 
+  
 end 
