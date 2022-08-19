@@ -10,4 +10,7 @@ RSpec.describe 'school reports' do
     it 'returns Green: 1 when input is Greem' do 
         expect(add_scores("Green")).to eq "Green: 1"
     end 
+    it 'returns Green: 1 when input is Greem' do 
+        expect(add_scores("Green")).to eq "Green: 1"
+    end 
 end 
