@@ -8,7 +8,7 @@ sound wave input then appy filter
 
 [60,40,45,60,1000] output
 
-range = 40 - 1000
+range = 40 - 1000e
 
 high = 1000
 low = 40

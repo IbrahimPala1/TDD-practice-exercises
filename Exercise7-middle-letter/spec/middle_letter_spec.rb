@@ -10,4 +10,7 @@ RSpec.describe 'middle_letter' do
     it 'checks secojd letter returns letter' do
         expect(middle_letter('me')).to eq "me"
     end 
+    it 'checks secojd letter returns letter' do
+        expect(middle_letter('why')).to eq "h"
+    end 
 end

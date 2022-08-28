@@ -45,4 +45,10 @@ Red, Amber, Green'     Test1:\n Green1, \nAmber1, \nRed:1
                        Test2:\n Green1, \nAmber1, \nRed:1\
 Red, Amber, Green, Red, Amber, Green"" --- Red, Amber, Green, Red, Amber, Green"       Test1:\n Green2, \nAmber2, \nRed:2,  --- Test2:\n Green2, \nAmber2, \nRed:2
 
+Triple A framework
+-Arrange
+-Act 
+-Assert 
+
+
 
