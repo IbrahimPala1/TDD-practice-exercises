@@ -19,4 +19,7 @@ describe('school_reports', () => {
      it('checks if two amber returns amber:2', () => {
         expect(school_reports('Amber, Amber')).toBe('Amber: 2')
      })
+     it('checks if two amber returns amber:2', () => {
+        expect(school_reports('Green, Green')).toBe('Green: 2')
+     })
 })
