@@ -13,4 +13,7 @@ describe('school_reports', () => {
      it('checks if red returns red:1', () => {
         expect(school_reports('Red')).toBe('Red: 1')
      })
+     it('checks if two red returns red:2', () => {
+        expect(school_reports('Red, Red')).toBe('Red: 2')
+     })
 })
