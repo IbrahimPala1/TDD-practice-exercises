@@ -3,8 +3,8 @@ const school_reports = (grades) => {
         return 'Green: 1'
     } else if(grades == 'Amber') {
         return 'Amber: 1'
-    } else {
-        return false 
+    } else if(grades == 'Red') {
+        return 'Red: 1'
     }
 }
 
