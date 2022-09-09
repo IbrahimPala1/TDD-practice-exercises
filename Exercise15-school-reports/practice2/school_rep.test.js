@@ -25,4 +25,7 @@ describe('school_reports', () => {
      it('checks if two different colors returns amber:1, green:1', () => {
         expect(school_reports('Green, Amber')).toBe('Green: 1, Amber: 1')
      })
+     it('checks if two different colors returns amber:1, green:1', () => {
+        expect(school_reports('Red, Amber')).toBe('Red: 1, Amber: 1')
+     })
 })
