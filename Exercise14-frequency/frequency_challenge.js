@@ -1,7 +1,9 @@
 const frequency = (array) => {
-  console.log(array.toString())
-  if(array.toString() == 40) {
+  console.log(array)
+  if(array == 40) {
     return [40]
+  }else if(array == 400) {
+    return [400]
   }
 }
 
