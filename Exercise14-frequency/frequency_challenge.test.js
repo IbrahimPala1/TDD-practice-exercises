@@ -7,6 +7,9 @@ describe('frequency', () => {
     it('checks that 400 returns 400', () => {
         expect(frequency([400])).toEqual([400])
     })
+    it('checks that 75 returns 75', () => {
+        expect(frequency([75])).toEqual([75])
+    })
 })
 
 

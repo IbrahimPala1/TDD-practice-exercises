@@ -4,6 +4,8 @@ const frequency = (array) => {
     return [40]
   }else if(array == 400) {
     return [400]
+  }else if(array == 75) {
+    return [75]
   }
 }
 
